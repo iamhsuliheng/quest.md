@@ -69,6 +69,10 @@ only a Crisis and a Destination is already a valid QUEST.md.
 
 ## See also
 
+[RATIONALE.md](RATIONALE.md) — the reasoning behind QUEST.md's
+design: the problem it addresses, the cybernetics framework it is
+built on, and the design decisions behind each section.
+
 [character.md](https://github.com/iamhsuliheng/character.md) — a
 semantic specification for character documents. QUEST.md describes
 what a character is doing. character.md describes who that character
