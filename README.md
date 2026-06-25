@@ -11,7 +11,7 @@ QUEST.md gives that structure a name.
 
 ## The structure
 
-A QUEST.md has two layers and five sections.
+A QUEST.md has two layers and a running record.
 
 **Strategic layer** — why this quest exists
 - `Crisis` — the event that made this quest necessary
@@ -22,7 +22,8 @@ A QUEST.md has two layers and five sections.
 - `Current Situation` — where you are right now
 - `Route` — the imagined path, and its constraints
 - `Fellowship` — who is on this journey
-- `Journal` — a record of how things change
+
+**Journal** — a running record of how things change
 
 ## The core idea
 
@@ -37,9 +38,10 @@ reality. The Journal records that history.
 
 ## Getting started
 
-Copy [QUEST.md](./QUEST.md) into your project. Fill in what you
-know. Leave blank what you don't. A document with only a Crisis and
-a Destination is already a valid QUEST.md.
+Copy [SPEC.md](./SPEC.md) into your project and rename it
+`QUEST.md`. Fill in what you know. Leave blank what you don't. A
+document with only a Crisis and a Destination is already a valid
+QUEST.md.
 
 ## See also
 
