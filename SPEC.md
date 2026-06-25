@@ -34,6 +34,12 @@ Create a QUEST.md when an undertaking meets either condition:
 
 A QUEST.md has two layers and a running record.
 
+Begin the document with a status line:
+
+`Status: active` — the quest is in progress
+`Status: completed` — the Destination was reached
+`Status: abandoned` — the quest ended before the Destination was reached
+
 ### Strategic layer
 
 The strategic layer answers: *why does this quest exist, and what
@@ -50,8 +56,8 @@ why continuing as before is no longer possible.
 
 The chosen direction in response to the Crisis. Not the destination
 and not the route — the strategic orientation that points toward
-both. Describe what kind of response this quest represents and why
-this direction over others.
+both. Describe what kind of response this quest represents, why
+this direction, and why not the most obvious alternatives.
 
 ### Tactical layer
 
@@ -92,10 +98,19 @@ step on the Route.
 
 ### Journal
 
-A running record of how the quest has moved. Each entry notes a
-change in any of the sections above — what changed and why. The
-Journal is not a tactical section: it does not describe the current
-state of the quest, it records how that state has changed over time.
+A running record of how the quest has moved. The Journal is not a
+tactical section: it does not describe the current state of the
+quest, it records how that state has changed over time.
+
+The Journal has two parts:
+
+**Takeaways** — What this quest has taught you so far: knowledge
+gained, assumptions confirmed or broken, patterns noticed. Written
+as a distillation, not a log. Updated as understanding grows;
+not append-only.
+
+**Entries** — A chronological log of changes. Each entry notes
+what changed in any of the sections above and why.
 
 ---
 

@@ -1,3 +1,5 @@
+Status: active
+
 # QUEST.md
 
 ## Crisis
@@ -23,6 +25,14 @@ Build an open semantic specification for project documents that
 defines what sentences mean, not how documents look.
 Medium-agnostic, plain text, no tooling required. Read SPEC.md to
 understand the structure, then create a QUEST.md in your project.
+
+This direction over alternatives: a format-prescriptive approach
+(like Amazon's 6-pager) would impose page limits and prose style,
+making it too heavy for individual or small-team use. A
+tooling-based approach (like ADRs in CI pipelines) would exclude
+anyone not working in a software repository. A semantic spec that
+defines meaning without dictating structure stays portable and
+accessible to the widest range of undertakings.
 
 ---
 
@@ -73,6 +83,20 @@ decision to extract Journal as a standalone element, and the
 removal of the Sentence types section.
 
 ## Journal
+
+### Takeaways
+
+- A semantic spec needs at least one filled example to be
+  believable; self-describing examples are immediately verifiable.
+- Status, Resolution alternatives, and Journal structure are the
+  three things most project document formats get wrong by omission.
+- Defining meaning without prescribing format keeps a spec portable
+  across domains and team sizes.
+
+### Entries
+
+2026-06-25 — Added Status line, expanded Resolution to include
+alternatives considered, split Journal into Takeaways and Entries.
 
 2026-06-25 — README Getting started rewritten. Removed instruction
 to copy SPEC.md (a spec is not a template). Replaced with an
