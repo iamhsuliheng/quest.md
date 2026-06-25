@@ -145,8 +145,9 @@ who encounters a QUEST.md for the first time can orient immediately.
 Three values cover the territory: the quest is in progress, it
 reached its destination, or it ended before it did. "Abandoned" is
 distinguished from "completed" because the reason a quest ends
-matters — a quest that reached its destination tells a different
-story than one that did not.
+matters — a quest that reached its destination and a quest that
+ended before reaching it are different kinds of stories. Conflating
+them would make the document less useful as a historical record.
 
 ### Why Takeaways comes before Entries in the Journal
 
@@ -159,6 +160,47 @@ useful on re-reading. When you return to a Journal to understand
 where a quest has been, the distillation is more valuable than the
 log. Entries grows append-only over time; Takeaways is the
 interpretation of that growth.
+
+---
+
+## Prior Art
+
+QUEST.md was designed with knowledge of several existing frameworks.
+Each one influenced a specific part of the design.
+
+**Cybernetics** — The core theoretical foundation. The feedback loop
+model (reference state / measured state / control action) provided
+the structure for Destination, Current Situation, and Route. It also
+introduced the key insight that both the reference state and measured
+state are models that can be wrong — which is why QUEST.md treats
+all sections as expected to change rather than as facts to be
+recorded once.
+
+**Getting Things Done (David Allen)** — GTD defines a "project" as
+anything with an imaginable completion state that requires more than
+one action. This influenced Destination's definition: the test for a
+good Destination is whether the people working toward it can picture
+it clearly enough to recognize when they have arrived. QUEST.md
+takes this principle and makes it explicit, while deliberately
+departing from the related SMART goals tradition that treats
+measurability as a requirement. Imaginability is not the same as
+measurability, and the distinction matters.
+
+**Amazon 6-pager** — The 6-pager format includes a Lessons Learned
+section at the end of a narrative memo. This influenced the Journal's
+Takeaways. The key departure: "Lessons Learned" implies a focus on
+mistakes and failures. Takeaways is broader — it covers any
+understanding worth distilling, including confirmed assumptions,
+noticed patterns, and knowledge gained, not only things that went
+wrong. The name change reflects that broader scope.
+
+**Architecture Decision Records (ADR)** — ADR is a lightweight
+format for documenting significant technical decisions, including the
+context, the decision made, and the alternatives considered. The
+"alternatives considered" section directly influenced the requirement
+in Resolution to address "why not the most obvious alternatives."
+A strategic direction is only legible when you know what was set
+aside and why.
 
 ---
 
