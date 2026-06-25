@@ -97,8 +97,6 @@ change in any of the sections above — what changed and why. The
 Journal is not a tactical section: it does not describe the current
 state of the quest, it records how that state has changed over time.
 
-Format: `YYYY-MM-DD — what changed and why`
-
 ---
 
 ## Design principles
