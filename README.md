@@ -38,10 +38,24 @@ reality. The Journal records that history.
 
 ## Getting started
 
-Copy [SPEC.md](./SPEC.md) into your project and rename it
-`QUEST.md`. Fill in what you know. Leave blank what you don't. A
-document with only a Crisis and a Destination is already a valid
-QUEST.md.
+Create a `QUEST.md` in your project. Fill in the sections in this
+order:
+
+1. **Crisis** — what broke the normal state and made this quest
+   necessary
+2. **Resolution** — the direction you are choosing in response
+3. **Destination** — the scene you are trying to reach
+4. **Current Situation** — where you are right now and what is
+   blocking you
+5. **Route** — how you plan to get there, and the constraints
+   shaping that path
+6. **Fellowship** — who is involved and what is still needed
+
+Start the **Journal** when something first changes. Each entry
+notes what changed and why.
+
+Fill in what you know. Leave blank what you don't. A document with
+only a Crisis and a Destination is already a valid QUEST.md.
 
 ## See also
 
